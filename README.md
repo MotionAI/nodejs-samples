@@ -86,3 +86,8 @@ You may display rich carousels (depending upon your bot's platform) that contain
           }]
         }
     ]
+
+# Help and Support
+If you require assistance, please join our Slack community on http://slack.motion.ai or submit a support ticket on https://dashboard.motion.ai/help
+
+We can't wait to see what you build!
