@@ -1,3 +1,5 @@
+// View a demonstration here: http://m.me/triviabotdemo
+
 // The contents of this file should be pasted into a Node.js Module in Motion AI on https://dashboard.motion.ai
 
 exports.handler = (event, context, callback) => {
