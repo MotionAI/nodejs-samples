@@ -1,8 +1,8 @@
 # Motion AI Node.js Module
 
-We are incredibly excited to unveil Motion AI’s new “Node.js Module” which gives anyone the ability to easily build complex, code and webservice-backed chatbots with no servers required.
+We are incredibly excited to unveil Motion AI’s new “Node.js Module” which gives anyone the ability to easily code complex webservice-backed chatbots with no servers required.  This is made possible through a partnership with AWS Lambda.
 
-Sign up for free on http://www.motion.ai
+Sign up for free on http://www.motion.ai and create a bot.  Once you've created your bot, drag and drop a Node.js module into your canvas to get started.
 
 Our mission at Motion AI has always been simple - we want to make the process of training, structuring, and deploying chatbots as easy and as painless as possible.
 
