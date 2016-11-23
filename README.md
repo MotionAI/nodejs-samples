@@ -57,7 +57,7 @@ Motion AI bundles several popular Node.js libraries that you can require() withi
 Your response JSON object may contain an array of strings to be displayed as Suggested Replies.  For example:
 `responseJSON.quickReplies = ["Red","Blue","Green","Yellow"];`
 
-# Sending Cards / Carousels
+# Sending Cards/Carousels
 You may display rich carousels (depending upon your bot's platform) that contain buttons and informational cards.
 
     responseJSON.cards = [
