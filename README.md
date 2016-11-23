@@ -52,6 +52,8 @@ Motion AI bundles several popular Node.js libraries that you can require() withi
 + q
 + redis
 + request
++ imagemagick
++ aws-sdk
 
 # Sending Quick/Suggested Replies 
 Your response JSON object may contain an array of strings to be displayed as Suggested Replies.  For example:
@@ -86,6 +88,18 @@ You may display rich carousels (depending upon your bot's platform) that contain
           }]
         }
     ]
+    
+# Troubleshooting / FAQs
+We recommend that you test your code locally during the development process, particularly if your function is large in scope.
+
+**My bot is not responding, or shows an endless typing indicator**
+This likely means that there is an error in your code somewhere.  Try testing the code locally to debug.  Your function *must* return a callback to Motion AI, and *must* exist within the `exports.handler` function. The other possibility is that your function exceeded the 10-second timeout limit we have imposed. If you would like to lift this limit, please contact us.
+
+**I updated my Node.js module but the changes did not apply when I test my bot**
+Please allow up to 2 minutes for code to fully deploy and propagate. Most changes are visible within 30-60 seconds, but network latency and larger codebases can cause delays.
+
+**Can I add custom npm modules to my deployment package?**
+At this time we do not support this.  If you feel we are missing an important library, please let us know! In the future we may offer the ability to bundle custom libraries.
 
 # Help and Support
 If you require assistance, please join our Slack community on http://slack.motion.ai or submit a support ticket on https://dashboard.motion.ai/help
