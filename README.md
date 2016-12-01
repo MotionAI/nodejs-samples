@@ -83,8 +83,8 @@ You may display rich carousels (depending upon your bot's platform) that contain
           cardLink: 'https://www.motion.ai',
           buttons: [{
             buttonText: 'WebhookButton 2',
-            buttonType: 'url',
-            target:  'https://dashboard.motion.ai'
+            buttonType: 'module',
+            target:  'This will get sent to the bot'
           }]
         }
     ]
