@@ -44,7 +44,7 @@ When you are finished processing the data, you must return a callback containing
       callback(null, responseJSON);
 
 # Included Libraries
-Motion AI bundles several popular Node.js libraries that you can require() within your code.  See npmjs.com documentation for each library for usage instructions.
+Motion AI bundles several popular Node.js libraries that you can require() within your code.  See npmjs.com documentation of each library for usage instructions.
 + async
 + lodash
 + mongoose
