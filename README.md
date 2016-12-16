@@ -54,6 +54,7 @@ Motion AI bundles several popular Node.js libraries that you can require() withi
 + request
 + imagemagick
 + aws-sdk
++ nodemailer
 
 # Sending Quick/Suggested Replies 
 Your response JSON object may contain an array of strings to be displayed as Suggested Replies.  For example:
