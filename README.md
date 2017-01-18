@@ -34,9 +34,9 @@ When you are finished processing the data, you must return a callback containing
     // this is the object we will return to Motion AI in the callback
     var responseJSON = {
         "response": "Hello World!", // what the bot will respond with (more is appended below)
-        "continue": false, // denotes that Motion AI should hit this module again, rather than continue further in the flow
+        "continue": false, // false denotes that Motion AI should hit this module again, rather than continue further in the flow
         "customPayload": "", // working data to examine in future calls to this function to keep track of state
-        "quickReplies": null, // a JSON object containing suggested/quick replies to display to the user
+        "quickReplies": null, // a JSON object containing suggested/quick replies to display to the user.. i.e, ["val1","val2"]
         "cards": null // a cards JSON object to display a carousel to the user (see docs)
     }
 
